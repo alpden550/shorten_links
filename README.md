@@ -10,7 +10,7 @@ You have to get bitly GENERIC ACCESS TOKEN, [it may help](https://dev.bitly.com/
 
 Create file .env in the root and write in it:
 
-```
+```.env
 api_key=your key from bitly
 ```
 
@@ -19,14 +19,16 @@ Python3 must be already installed.
 Should use virtual env for project isolation.
 
 Then use `pip` (or `pip3`, if there is a conflict with Python2) to install dependencies:
-```
+
+```bash
 pip install -r requirements.txt
 ```
 
 ## How to use
 
 Run script in terminal
-```
+
+```bash
 python shorten.py your_link
 ```
 
